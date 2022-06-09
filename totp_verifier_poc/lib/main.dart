@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:totp_verifier_poc/view/home_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,10 +35,8 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Coming soon'),
-      ),
+    return const Center(
+      child: HomeWidget(),
     );
   }
 }
